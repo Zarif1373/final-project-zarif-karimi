@@ -13,9 +13,6 @@ public class PlansPage {
 
     public final static By TABLE_ROW_LOCATOR = By.xpath("//tbody/tr");
 
-    public static By getTablePlan4Rows(int row, int column){
-        return By.xpath("//table/tbody/tr["+row+"]/td["+column+"+]");
-    }
 
     public static final By DUPLICATE_DATE_CREATE = By.xpath("//tbody/tr/td[4]");
 
